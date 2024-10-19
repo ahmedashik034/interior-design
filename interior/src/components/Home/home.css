@@ -1,0 +1,38 @@
+/* src/components/Home/home.css */
+.home-container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9); /* Light background with some transparency */
+    padding: 30px;
+    border-radius: 8px; /* Optional: Add some rounded corners */
+  }
+  
+  
+  .design-process-container {
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.9); /* Light background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    text-align: center;
+    margin: 20px; /* Space around the section */
+  }
+  
+  .design-process-container h2 {
+    font-size: 28px;
+    color: #3e3d45; /* Your base color */
+    margin-bottom: 30px;
+  }
+  
+  .step {
+    margin: 20px 0;
+  }
+  
+  .step h3 {
+    font-size: 24px;
+    color: #3e3d45; /* Your base color */
+  }
+  
+  .step p {
+    font-size: 16px;
+    color: #666; /* Slightly darker text for contrast */
+    margin-top: 10px;
+  }
+  

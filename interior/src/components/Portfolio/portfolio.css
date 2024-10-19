@@ -1,0 +1,33 @@
+/* src/components/portfolio.css */
+.portfolio-container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9); /* Light background with some transparency */
+    padding: 30px;
+    border-radius: 8px;
+     /* Optional: Add some rounded corners */
+  }
+  
+  .portfolio-container h2 {
+    font-size: 30px;
+    color: #333;
+  }
+  
+  .portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .portfolio-items .item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    background-color: white;
+    transition: transform 0.3s;
+  }
+  
+  .portfolio-items .item:hover {
+    transform: scale(1.05);
+  }
+  

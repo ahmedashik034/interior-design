@@ -1,0 +1,45 @@
+/* src/components/nav.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Adjusted padding */
+    /* Change to desired color */
+    position: fixed; 
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 10px 20px; /* Adjust as necessary */
+  }
+  
+  
+  .logo h1 {
+    font-size: 24px;
+    color: white;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-left: auto; /* Pushes the nav links to the right */
+  }
+  
+  .nav-links li {
+    text-align: right; /* Align text inside the list */
+  }
+  
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: black; /* Font color changed to black */
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .nav-links li a:hover {
+    color: #00aaff; /* Change color on hover */
+  }
+  
+  
